@@ -13,7 +13,7 @@ Visual Studio Code u otro editor de código
 Instalación
 
 1. CLonar el repositorio:
-	git clone
+	git clone https://github.com/469ynad/CalculoPrecioConIva
 2. Acceder a la carpeta del proyecto
 	cd Proyecto
 3. Abrir el archivo index.html en un navegador

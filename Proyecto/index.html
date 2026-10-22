@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de precio con impuestos</title>
+</head>
+
+<body>
+    <h1>Calculadora IVA</h1>
+
+    <label for="precio">Calculo de precio con 21% de iva</label>
+    <input type="number" id="precio" step="0.01">
+
+    <button onclick="calcularPrecioIva21()">IVA 21%</button>
+    <button onclick="calcularPrecioIva10()">IVA 10%</button>
+
+    <p id="resultado"></p>
+
+
+    <script src="calculosIva.js"></script>
+</body>
+
+</html>

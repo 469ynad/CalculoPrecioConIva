@@ -7,3 +7,6 @@
 
 #Configuracion local de vsc
 .vscode/
+
+#Dependencias de npm
+node_modules/

@@ -1,5 +1,12 @@
 function calcularPrecioIva21() {
-    let precio = Number(document.getElementById("precio").value);
+    let entrada = document.getElementById("precio").value.trim();
+
+    if (entrada == "") {
+        document.getElementById("resultado").textContent = "El precio no puede estar vacio";
+        return;
+    }
+
+    let precio = Number(entrada);
 
     if (!Number.isFinite(precio) || precio <= 0) {
         document.getElementById("resultado").textContent = "El precio debe ser mayor a 0";
@@ -15,7 +22,14 @@ function calcularPrecioIva21() {
 }
 
 function calcularPrecioIva10() {
-    let precio = Number(document.getElementById("precio").value);
+    let entrada = document.getElementById("precio").value.trim();
+
+    if (entrada == "") {
+        document.getElementById("resultado").textContent = "El precio no puede estar vacio";
+        return;
+    }
+
+    let precio = Number(entrada);
 
     if (!Number.isFinite(precio) || precio <= 0) {
         document.getElementById("resultado").textContent = "El precio debe ser mayor a 0";

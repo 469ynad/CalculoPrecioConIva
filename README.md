@@ -17,7 +17,10 @@ Visual Studio Code u otro editor de código
 	git clone https://github.com/469ynad/CalculoPrecioConIva
 2. Acceder a la carpeta del proyecto
 	cd Proyecto
-3. Abrir el archivo index.html en un navegador
+3. Instalar las dependencias: 
+	npm install
+
+4. Abrir el archivo index.html en un navegador
 
 
 ## Uso

@@ -1,3 +1,10 @@
+/**
+ * Calcula el precio final aplicando un IVA 21%
+ * 
+ * Obtiene el precio del html y comprueba que sea un numero valido mayor a cero y muestra el resultado por pantalla.
+ * 
+ * @returns {void} No devuelve ningun valor.
+ */
 function calcularPrecioIva21() {
     let entrada = document.getElementById("precio").value.trim();
 
@@ -21,6 +28,14 @@ function calcularPrecioIva21() {
 
 }
 
+/**
+ * Calcula el precio final aplicando un IVA del 10%
+ * 
+ * Obtiene el precio del html y comprueba que sea numero valido mayor a cero y muestra el resultado por pantalla
+ * 
+ * @returns {void} No devuelve ningun valor
+ * 
+ */
 function calcularPrecioIva10() {
     let entrada = document.getElementById("precio").value.trim();
 

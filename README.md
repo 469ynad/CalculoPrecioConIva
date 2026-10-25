@@ -46,3 +46,43 @@ La aplicación realiza las siguientes comprobaciones sobre el precio introducido
 Si alguna de las validaciones falla, se muestra mensaje de error al usuario y no se realiza el calculo
 
 
+## Seguridad del repositorio
+
+Proteccion de la rama principal
+
+	Se ha configurado una regla de protección para la rama main con las siguientes restricciones:
+
+		- Require a pull request before merging: obliga a utilizar Pull Request para incorporar cambios a la rama principal.
+		- Restrict deletions: impide eliminar la rama main.
+		- Block force pushes: evita la reescritura del historial mediante pushes forzados.
+		- Required aprovals 0: permite trabajar individualmente sin necesitar aprobaciones de otros colaboradores.
+
+Autenticación
+
+	El acceso al repositorio se realiza mediante la cuenta personal de GitHub. Para mejorar la seguridad se recomienda el 
+	uso de autenticación en dos factores(2FA)
+
+	Las operaciones Git con el repositorio remoto requieren autenticación mediante mecanismos admitidos por GitHub, como 
+	SSH o HTTPS con credenciales apropiadas.
+
+Permisos
+
+	Se aplica el principio de mínimo privilegio, según el cual cada colaborador debe disponer únicamente de los permisos necesarios.
+
+	La rama principal está protegida para evitar modificaciones directas y los cambios se incorporan mediante Pull Request.
+
+Archivos ignorados
+
+	El archivo .gitignore excluye archivos y directorios que no deben versionarse, como node_modules/, archivos temporales y
+	archivos de configuración sensibles.
+
+	No se deben incluir contraseñas, tokens de acceso ni claves privadas en el código fuente.
+	
+Copias de seguridad
+
+	El repositorio se mantiene tanto en el equipo local como en GitHub, disponiendo de dos ubicaciones con el código y su historial de versiones.
+
+
+
+
+

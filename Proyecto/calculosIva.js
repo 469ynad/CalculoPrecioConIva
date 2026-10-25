@@ -17,7 +17,7 @@ function calcularPrecioIva21() {
     let precioNeto = precio + iva;
 
     document.getElementById("resultado").textContent =
-        "Precio con IVA del 21%: " + precioNeto.toFixed(2) + " €";
+        "Total del precio con IVA del 21%: " + precioNeto.toFixed(2) + " €";
 
 }
 

@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/469ynad/CalculoPrecioConIva#readme",
   "devDependencies": {
-    "eslint": "^10.13.0"
+    "eslint": "^10.13.0",
+    "jsdoc": "^4.0.5"
   }
 }
